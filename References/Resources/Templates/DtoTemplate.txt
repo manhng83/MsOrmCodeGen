@@ -1,0 +1,20 @@
+ public class #ClassName# 
+    {
+	#region
+
+        #PrivateFields#
+       
+	#endregion
+
+	#region
+
+	#PropertiesStart#
+        public #PropertType# #PropertyName#
+        {
+            get { return #PropertyReturnField#; }
+            set { #PropertySetField# = value; }
+        }
+	#PropertiesEnd#
+
+	#endregion
+    }

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NorthwindDtoStoreContainer" CdmEntityContainer="ObjectContextEntities">
+    <EntitySetMapping Name="Categories" StoreEntitySet="Categories" TypeName="Northwind.Dto.Categories">
+      <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+      <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+      <ScalarProperty Name="Description" ColumnName="Description" />
+      <ScalarProperty Name="Picture" ColumnName="Picture" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerDemographics" StoreEntitySet="CustomerDemographics" TypeName="Northwind.Dto.CustomerDemographics">
+      <ScalarProperty Name="CustomerTypeID" ColumnName="CustomerTypeID" />
+      <ScalarProperty Name="CustomerDesc" ColumnName="CustomerDesc" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers" StoreEntitySet="Customers" TypeName="Northwind.Dto.Customers">
+      <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+      <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+      <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+      <ScalarProperty Name="ContactTitle" ColumnName="ContactTitle" />
+      <ScalarProperty Name="Address" ColumnName="Address" />
+      <ScalarProperty Name="City" ColumnName="City" />
+      <ScalarProperty Name="Region" ColumnName="Region" />
+      <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+      <ScalarProperty Name="Country" ColumnName="Country" />
+      <ScalarProperty Name="Phone" ColumnName="Phone" />
+      <ScalarProperty Name="Fax" ColumnName="Fax" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees" StoreEntitySet="Employees" TypeName="Northwind.Dto.Employees">
+      <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+      <ScalarProperty Name="LastName" ColumnName="LastName" />
+      <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+      <ScalarProperty Name="Title" ColumnName="Title" />
+      <ScalarProperty Name="TitleOfCourtesy" ColumnName="TitleOfCourtesy" />
+      <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+      <ScalarProperty Name="HireDate" ColumnName="HireDate" />
+      <ScalarProperty Name="Address" ColumnName="Address" />
+      <ScalarProperty Name="City" ColumnName="City" />
+      <ScalarProperty Name="Region" ColumnName="Region" />
+      <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+      <ScalarProperty Name="Country" ColumnName="Country" />
+      <ScalarProperty Name="HomePhone" ColumnName="HomePhone" />
+      <ScalarProperty Name="Extension" ColumnName="Extension" />
+      <ScalarProperty Name="Photo" ColumnName="Photo" />
+      <ScalarProperty Name="Notes" ColumnName="Notes" />
+      <ScalarProperty Name="ReportsTo" ColumnName="ReportsTo" />
+      <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orderdetails" StoreEntitySet="Orderdetails" TypeName="Northwind.Dto.Orderdetails">
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+      <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+      <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+      <ScalarProperty Name="Discount" ColumnName="Discount" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders" StoreEntitySet="Orders" TypeName="Northwind.Dto.Orders">
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+      <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+      <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+      <ScalarProperty Name="RequiredDate" ColumnName="RequiredDate" />
+      <ScalarProperty Name="ShippedDate" ColumnName="ShippedDate" />
+      <ScalarProperty Name="ShipVia" ColumnName="ShipVia" />
+      <ScalarProperty Name="Freight" ColumnName="Freight" />
+      <ScalarProperty Name="ShipName" ColumnName="ShipName" />
+      <ScalarProperty Name="ShipAddress" ColumnName="ShipAddress" />
+      <ScalarProperty Name="ShipCity" ColumnName="ShipCity" />
+      <ScalarProperty Name="ShipRegion" ColumnName="ShipRegion" />
+      <ScalarProperty Name="ShipPostalCode" ColumnName="ShipPostalCode" />
+      <ScalarProperty Name="ShipCountry" ColumnName="ShipCountry" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products" StoreEntitySet="Products" TypeName="Northwind.Dto.Products">
+      <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+      <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+      <ScalarProperty Name="QuantityPerUnit" ColumnName="QuantityPerUnit" />
+      <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+      <ScalarProperty Name="UnitsInStock" ColumnName="UnitsInStock" />
+      <ScalarProperty Name="UnitsOnOrder" ColumnName="UnitsOnOrder" />
+      <ScalarProperty Name="ReorderLevel" ColumnName="ReorderLevel" />
+      <ScalarProperty Name="Discontinued" ColumnName="Discontinued" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Region" StoreEntitySet="Region" TypeName="Northwind.Dto.Region">
+      <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+      <ScalarProperty Name="RegionDescription" ColumnName="RegionDescription" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shippers" StoreEntitySet="Shippers" TypeName="Northwind.Dto.Shippers">
+      <ScalarProperty Name="ShipperID" ColumnName="ShipperID" />
+      <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+      <ScalarProperty Name="Phone" ColumnName="Phone" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers" StoreEntitySet="Suppliers" TypeName="Northwind.Dto.Suppliers">
+      <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+      <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+      <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+      <ScalarProperty Name="ContactTitle" ColumnName="ContactTitle" />
+      <ScalarProperty Name="Address" ColumnName="Address" />
+      <ScalarProperty Name="City" ColumnName="City" />
+      <ScalarProperty Name="Region" ColumnName="Region" />
+      <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+      <ScalarProperty Name="Country" ColumnName="Country" />
+      <ScalarProperty Name="Phone" ColumnName="Phone" />
+      <ScalarProperty Name="Fax" ColumnName="Fax" />
+      <ScalarProperty Name="HomePage" ColumnName="HomePage" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Territories" StoreEntitySet="Territories" TypeName="Northwind.Dto.Territories">
+      <ScalarProperty Name="TerritoryID" ColumnName="TerritoryID" />
+      <ScalarProperty Name="TerritoryDescription" ColumnName="TerritoryDescription" />
+      <ScalarProperty Name="RegionID" ColumnName="RegionID" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alphabeticallistofproducts" StoreEntitySet="Alphabeticallistofproducts" TypeName="Northwind.Dto.Alphabeticallistofproducts">
+      <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+      <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+      <ScalarProperty Name="QuantityPerUnit" ColumnName="QuantityPerUnit" />
+      <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+      <ScalarProperty Name="UnitsInStock" ColumnName="UnitsInStock" />
+      <ScalarProperty Name="UnitsOnOrder" ColumnName="UnitsOnOrder" />
+      <ScalarProperty Name="ReorderLevel" ColumnName="ReorderLevel" />
+      <ScalarProperty Name="Discontinued" ColumnName="Discontinued" />
+      <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategorySalesfor1997" StoreEntitySet="CategorySalesfor1997" TypeName="Northwind.Dto.CategorySalesfor1997">
+      <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+      <ScalarProperty Name="CategorySales" ColumnName="CategorySales" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="CurrentProductList" StoreEntitySet="CurrentProductList" TypeName="Northwind.Dto.CurrentProductList">
+      <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerandSuppliersbyCity" StoreEntitySet="CustomerandSuppliersbyCity" TypeName="Northwind.Dto.CustomerandSuppliersbyCity">
+      <ScalarProperty Name="City" ColumnName="City" />
+      <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+      <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+      <ScalarProperty Name="Relationship" ColumnName="Relationship" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="Invoices" StoreEntitySet="Invoices" TypeName="Northwind.Dto.Invoices">
+      <ScalarProperty Name="ShipName" ColumnName="ShipName" />
+      <ScalarProperty Name="ShipAddress" ColumnName="ShipAddress" />
+      <ScalarProperty Name="ShipCity" ColumnName="ShipCity" />
+      <ScalarProperty Name="ShipRegion" ColumnName="ShipRegion" />
+      <ScalarProperty Name="ShipPostalCode" ColumnName="ShipPostalCode" />
+      <ScalarProperty Name="ShipCountry" ColumnName="ShipCountry" />
+      <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+      <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+      <ScalarProperty Name="Address" ColumnName="Address" />
+      <ScalarProperty Name="City" ColumnName="City" />
+      <ScalarProperty Name="Region" ColumnName="Region" />
+      <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+      <ScalarProperty Name="Country" ColumnName="Country" />
+      <ScalarProperty Name="Salesperson" ColumnName="Salesperson" />
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+      <ScalarProperty Name="RequiredDate" ColumnName="RequiredDate" />
+      <ScalarProperty Name="ShippedDate" ColumnName="ShippedDate" />
+      <ScalarProperty Name="ShipperName" ColumnName="ShipperName" />
+      <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+      <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+      <ScalarProperty Name="Discount" ColumnName="Discount" />
+      <ScalarProperty Name="ExtendedPrice" ColumnName="ExtendedPrice" />
+      <ScalarProperty Name="Freight" ColumnName="Freight" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderdetailsExtended" StoreEntitySet="OrderdetailsExtended" TypeName="Northwind.Dto.OrderdetailsExtended">
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+      <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+      <ScalarProperty Name="Discount" ColumnName="Discount" />
+      <ScalarProperty Name="ExtendedPrice" ColumnName="ExtendedPrice" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdersQry" StoreEntitySet="OrdersQry" TypeName="Northwind.Dto.OrdersQry">
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+      <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+      <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+      <ScalarProperty Name="RequiredDate" ColumnName="RequiredDate" />
+      <ScalarProperty Name="ShippedDate" ColumnName="ShippedDate" />
+      <ScalarProperty Name="ShipVia" ColumnName="ShipVia" />
+      <ScalarProperty Name="Freight" ColumnName="Freight" />
+      <ScalarProperty Name="ShipName" ColumnName="ShipName" />
+      <ScalarProperty Name="ShipAddress" ColumnName="ShipAddress" />
+      <ScalarProperty Name="ShipCity" ColumnName="ShipCity" />
+      <ScalarProperty Name="ShipRegion" ColumnName="ShipRegion" />
+      <ScalarProperty Name="ShipPostalCode" ColumnName="ShipPostalCode" />
+      <ScalarProperty Name="ShipCountry" ColumnName="ShipCountry" />
+      <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+      <ScalarProperty Name="Address" ColumnName="Address" />
+      <ScalarProperty Name="City" ColumnName="City" />
+      <ScalarProperty Name="Region" ColumnName="Region" />
+      <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
+      <ScalarProperty Name="Country" ColumnName="Country" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderSubtotals" StoreEntitySet="OrderSubtotals" TypeName="Northwind.Dto.OrderSubtotals">
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsAboveAveragePrice" StoreEntitySet="ProductsAboveAveragePrice" TypeName="Northwind.Dto.ProductsAboveAveragePrice">
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSalesfor1997" StoreEntitySet="ProductSalesfor1997" TypeName="Northwind.Dto.ProductSalesfor1997">
+      <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="ProductSales" ColumnName="ProductSales" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsbyCategory" StoreEntitySet="ProductsbyCategory" TypeName="Northwind.Dto.ProductsbyCategory">
+      <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="QuantityPerUnit" ColumnName="QuantityPerUnit" />
+      <ScalarProperty Name="UnitsInStock" ColumnName="UnitsInStock" />
+      <ScalarProperty Name="Discontinued" ColumnName="Discontinued" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesbyCategory" StoreEntitySet="SalesbyCategory" TypeName="Northwind.Dto.SalesbyCategory">
+      <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+      <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+      <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+      <ScalarProperty Name="ProductSales" ColumnName="ProductSales" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesTotalsbyAmount" StoreEntitySet="SalesTotalsbyAmount" TypeName="Northwind.Dto.SalesTotalsbyAmount">
+      <ScalarProperty Name="SaleAmount" ColumnName="SaleAmount" />
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+      <ScalarProperty Name="ShippedDate" ColumnName="ShippedDate" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="SummaryofSalesbyQuarter" StoreEntitySet="SummaryofSalesbyQuarter" TypeName="Northwind.Dto.SummaryofSalesbyQuarter">
+      <ScalarProperty Name="ShippedDate" ColumnName="ShippedDate" />
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+    </EntitySetMapping>
+    <EntitySetMapping Name="SummaryofSalesbyYear" StoreEntitySet="SummaryofSalesbyYear" TypeName="Northwind.Dto.SummaryofSalesbyYear">
+      <ScalarProperty Name="ShippedDate" ColumnName="ShippedDate" />
+      <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+      <ScalarProperty Name="Subtotal" ColumnName="Subtotal" />
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CustomerCustomerDemo" TypeName="Northwind.Dto.CustomerCustomerDemo" StoreEntitySet="CustomerCustomerDemo">
+      <EndProperty Name="CustomerDemographics">
+        <ScalarProperty Name="CustomerTypeID" ColumnName="CustomerTypeID" />
+      </EndProperty>
+      <EndProperty Name="Customers">
+        <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="EmployeeTerritories" TypeName="Northwind.Dto.EmployeeTerritories" StoreEntitySet="EmployeeTerritories">
+      <EndProperty Name="Employees">
+        <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+      </EndProperty>
+      <EndProperty Name="Territories">
+        <ScalarProperty Name="TerritoryID" ColumnName="TerritoryID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
